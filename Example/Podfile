@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZTBaseView_Example' do
+  pod 'ZTBaseView', :path => '../'
+
+  target 'ZTBaseView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
