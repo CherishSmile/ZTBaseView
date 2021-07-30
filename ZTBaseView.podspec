@@ -23,6 +23,9 @@ Pod::Spec.new do |s|
     s.public_header_files = 'ZTBaseView/ZTBaseView.framework/Headers/*.{h}'
     s.resource = 'ZTBaseView/ZTBaseView.framework/Resource.bundle'
 
+    s.pod_target_xcconfig = {
+      'VALID_ARCHS' => 'x86_64 armv7 arm64'
+    }
     s.dependency 'ZTBase'
     s.dependency 'DZNEmptyDataSet'
     s.dependency 'MJRefresh'

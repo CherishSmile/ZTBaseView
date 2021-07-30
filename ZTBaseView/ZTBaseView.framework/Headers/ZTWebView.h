@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
-#import "ZTScriptMessageHandler.h"
+#import <ZTBase/ZTScriptMessageHandler.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
