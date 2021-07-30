@@ -7,36 +7,26 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ZTBaseView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZTBaseView.'
+    s.name             = 'ZTBaseView'
+    s.version          = '1.0.0'
+    s.summary          = 'ZTBaseView is the basic framework of OC project.'
+    s.homepage         = 'https://github.com/CherishSmile/ZTBaseView'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'CherishSmile' => 'misteralvin@yeah.net' }
+    s.source           = { :git => 'https://github.com/CherishSmile/ZTBaseView.git', :tag => s.version.to_s }
+    s.ios.deployment_target = '10.0'
+    s.requires_arc = true
+    
+    
+    s.source_files = 'ZTBaseView/ZTBaseView.framework/Headers/*.{h}'
+    s.vendored_frameworks = 'ZTBaseView/ZTBaseView.framework'
+    s.public_header_files = 'ZTBaseView/ZTBaseView.framework/Headers/*.{h}'
+    s.resource = 'ZTBaseView/ZTBaseView.framework/Resource.bundle'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+    s.dependency 'ZTBase'
+    s.dependency 'DZNEmptyDataSet'
+    s.dependency 'MJRefresh'
+    s.dependency 'Masonry'
+    s.dependency 'KMNavigationBarTransition'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/1332291552@qq.com/ZTBaseView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1332291552@qq.com' => 'misteralvin@yeah.net' }
-  s.source           = { :git => 'https://github.com/1332291552@qq.com/ZTBaseView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'ZTBaseView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZTBaseView' => ['ZTBaseView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

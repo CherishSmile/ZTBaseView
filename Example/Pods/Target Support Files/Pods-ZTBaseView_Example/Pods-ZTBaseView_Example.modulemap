@@ -1,0 +1,6 @@
+framework module Pods_ZTBaseView_Example {
+  umbrella header "Pods-ZTBaseView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
