@@ -14,6 +14,7 @@
 		4FA6D41A8618C339A974E7150D963C07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7582986ECDCA5AF8C773AD29F2734897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		802A89B5753B849CCB8A87D543AB3372 /* ZTBaseView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024A3B8D4F4DE206562EEBEC1360928 /* ZTBaseView-dummy.m */; };
+		E12A9A4E26D489F300BE97AD /* ZTBaseView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E12A9A4D26D489F300BE97AD /* ZTBaseView.bundle */; };
 		E181534F26B0FAD00075AFA3 /* ZTBaseView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181534E26B0FAD00075AFA3 /* ZTBaseView.framework */; };
 		E57F9745FE4681DD8F47B4FAF3E8F084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EEABEEC2E68A6BBE5A9185A9FF8F6189 /* Pods-ZTBaseView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C27BC8EE3A472AE08351A4C86B4EAE /* Pods-ZTBaseView_Tests-dummy.m */; };
@@ -63,6 +64,7 @@
 		C8CAB2F233403BE6CB66230452C01E12 /* Pods-ZTBaseView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTBaseView_Example-Info.plist"; sourceTree = "<group>"; };
 		CEBCC95F4897544299EE392D13ACA613 /* Pods-ZTBaseView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTBaseView_Example-umbrella.h"; sourceTree = "<group>"; };
 		D583E98AC582A7CB9AF2938742A59831 /* ZTBaseView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZTBaseView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12A9A4D26D489F300BE97AD /* ZTBaseView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZTBaseView.bundle; path = ZTBaseView/ZTBaseView.bundle; sourceTree = "<group>"; };
 		E181534E26B0FAD00075AFA3 /* ZTBaseView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZTBaseView.framework; path = ZTBaseView/ZTBaseView.framework; sourceTree = "<group>"; };
 		E37A985C732CA9C3B5C8E5C3D23D7DD2 /* Pods-ZTBaseView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTBaseView_Example.modulemap"; sourceTree = "<group>"; };
 		E7C27BC8EE3A472AE08351A4C86B4EAE /* Pods-ZTBaseView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTBaseView_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		9FEF9CBD00C12326701F881EDBBCD5AB /* ZTBaseView */ = {
 			isa = PBXGroup;
 			children = (
+				E12A9A4D26D489F300BE97AD /* ZTBaseView.bundle */,
 				E181534E26B0FAD00075AFA3 /* ZTBaseView.framework */,
 				E8CDC5ACC61082430577F51FB670E798 /* Pod */,
 				690AF2F76BC79777FA53B0673FAA4371 /* Support Files */,
@@ -344,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12A9A4E26D489F300BE97AD /* ZTBaseView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

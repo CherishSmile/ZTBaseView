@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'ZTBaseView'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'ZTBaseView is the basic framework of OC project.'
     s.homepage         = 'https://github.com/CherishSmile/ZTBaseView'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -20,8 +20,7 @@ Pod::Spec.new do |s|
     
     s.source_files = 'ZTBaseView/ZTBaseView.framework/Headers/*.{h}'
     s.vendored_frameworks = 'ZTBaseView/ZTBaseView.framework'
-    s.public_header_files = 'ZTBaseView/ZTBaseView.framework/Headers/*.{h}'
-    s.resource = 'ZTBaseView/ZTBaseView.framework/Resource.bundle'
+    s.resource = 'ZTBaseView/ZTBaseView.bundle'
 
     s.pod_target_xcconfig = {
       'VALID_ARCHS' => 'x86_64 armv7 arm64'
